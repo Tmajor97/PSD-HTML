@@ -1,0 +1,137 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    margin: 0;
+    background: #1f1f1f;
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+
+/*header Area*/
+#header_area {
+    background: #ffffff;
+    border-top: solid #81b300;
+    clear: both;
+}
+.inner_header {
+    overflow:hidden;
+    padding: 0 30px;
+}
+.logo_area{
+    width: 300px;
+    float: left;
+    padding-top:30px ;
+}
+.right_header_area{
+    width: 590px;
+    float: right;
+}
+.social_area{
+    background:#81b300 ;
+    width: auto;
+    float: right;
+    padding: 20px 15px;
+    border-radius: 0 0 15px 15px;
+}
+.social_area ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+    
+}
+.social_area ul li{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.social_area ul li a{
+    
+    display: block;
+    text-decoration: none;
+    
+}
+
+.social_area ul li a i{
+    background:#1f1f1f;
+    width: 35px;
+    padding-top: 10px;
+    color: #fff;
+    font-size: 15px;
+    display: block;
+    text-align: center;
+    height: 25px;
+    border-radius: 25px;
+    transition: 2s;
+}
+
+.social_area ul li a:hover{
+    background:#435c01 ;
+}
+
+.social_area ul li a:hover i.fa-twitter{
+    background:#00acee ;
+}
+
+.social_area ul li a:hover i.fa-google{
+    background:#00acee ;
+}
+
+.social_area ul li a:hover i.fa-linkedin{
+    background:#00acee ;
+}
+
+.social_area ul li a:hover i.fa-i.rss-square{
+    background:#00acee ;
+}
+
+.top_menu{
+    width: 100px;
+    float: right;
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+.top_menu li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+.top_menu ul li {
+    display: inline-block;
+    margin: 0 8px;
+    position: relative;
+}
+
+
+.top_menu ul li ::after{
+    position: absolute;
+    content: "";
+    right: -12px;
+    top: -1px;
+    color: #000;
+}
+
+.top_menu ul li:last-child ::after{
+    display: none;
+}
+
+
+.top_menu ul li a{
+    color: #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.top_menu ul li a:hover{
+    color:#81b300 ;
+}
